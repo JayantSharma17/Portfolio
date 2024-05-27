@@ -1,0 +1,79 @@
+#WebC{
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #121929 ;
+    margin-top: 4vw;
+}
+
+#WebC>h1{
+    color: gray;
+    text-align: center;
+}
+.WebCards{
+    /* border: 2px solid #00B5FF; */
+    /* background-color: #f1fbff19; */
+    padding: 10px;
+    /* height: 380px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.WebCards>img{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.WebCards>h2{
+    color: white;
+    text-align: center;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.WebCards>a>h4{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 95%;
+    width: auto;
+    border-radius: 50px;
+    border: 2px solid #00B5FF;
+}
+.WebCards>a{
+    text-decoration: none;
+}
+.WebCards>a>h4:hover{
+    cursor: pointer;
+    background-color: #040517;
+    border: 2px solid #7e7e7e;
+}
+.WebCards>p{
+    width: 95%;
+    color: gray;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+@media only screen and (max-width: 700px) {
+    #WebC{
+        width: 100vw;
+        margin-top: 15vw;
+    }
+    .WebCards{
+        /* border: 2px solid #00B5FF; */
+        /* background-color: #f1fbff19; */
+        padding: 10px;
+        /* height: 310px; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+}

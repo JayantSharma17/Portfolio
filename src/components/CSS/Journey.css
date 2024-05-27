@@ -1,0 +1,116 @@
+#journey{
+    width: 90vw;
+    background-color: #121929;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vw;
+}
+#journey>h1{
+    color: gray;
+    text-align: center;
+}
+#journey>.line{
+    margin-left: auto;
+    margin-right: auto;
+    width: 5px;
+    height: 20px;
+    background-color: #00B5FF;
+}
+#journey>.dot{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+    border:5px solid #00B5FF;
+    width: 20px;
+    height: 20px;
+    /* background-color: #00B5FF; */
+}
+.journeyC{
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #040517;
+    padding: 20px;
+    border: 2px solid #00B5FF;
+    border-radius: 1000px;
+}
+.journeyC>div>div{
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.journeyC>div{
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.journeyC>div>.tit{
+    color: #00B5FF;
+    font-style: italic;
+   
+}
+.journeyC>div>p{
+    color: rgb(197, 197, 197);
+   
+}
+.journeyC>div>div>h1{
+    font-size: 20px;
+}
+.journeyC>div>div>p{
+    font-size: 18px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #3e3e3e;
+    display: inline-block;
+    width: auto;
+    border-radius: 50px;
+}
+@media only screen and (max-width: 700px) {
+    #journey{
+        width: 100vw;
+        margin-top: 15vw;
+    }
+    #journey>h1{
+        font-size: 23px;
+    }
+    #journey>.line{
+        width: 2px;
+        height: 10px;
+    }
+    #journey>.dot{
+        border:3px solid #00B5FF;
+        width: 10px;
+        height: 10px;
+    }
+    .journeyC{
+        width: 95vw;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    .journeyC>div>div{
+        width: 80vw;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+
+    }
+    .journeyC>div{
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+       
+    }
+    .journeyC>div>div>h1{
+        font-size: 15px;
+    }
+    .journeyC>div>div>p{
+        font-size: 15px;
+    }
+
+}

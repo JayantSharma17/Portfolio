@@ -1,0 +1,82 @@
+#contact{
+    width: 100vw;
+    background-color: #040517;
+    /* background-color: #1d1d1d; */
+    margin-top: 4vw;
+    padding: 3vw;
+}
+#contact>h1{
+    margin-top: 4vw;
+    color: gray;
+    text-align: center;
+}
+#contact>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: aqua; */
+}
+#contact>div>input{
+    width: 100%;
+    margin-top: 20px;
+    font-size: 30px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: transparent;
+    border-bottom: 2px solid #00B5FF;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+#contact>div>button{
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    width: 20vw;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50px;
+    border: 2px solid #00B5FF;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contact>div>button:hover{
+    cursor: pointer;
+    background-color: #00B5FF;
+    
+}
+#footer{
+    width: 100vw;
+    background-color: #000000;
+    color: gray;
+    text-align: center;
+    padding: 10px;
+}
+@media only screen and (max-width: 700px) {
+    #contact>div{
+        width: 90vw;
+    }
+    #contact>div>input{
+        margin-top: 10px;
+        font-size: 18px;
+        padding: 10px;
+    }
+    #contact>div>button{
+        font-size: 18px;
+        color: white;
+        background-color: transparent;
+        width: 80vw;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 50px;
+        border: 2px solid #00B5FF;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

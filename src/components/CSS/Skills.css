@@ -1,0 +1,80 @@
+#skillsBox{
+    width: 90vw;
+    background-color: #121929;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vw;
+    /* height: 200px; */
+}
+#skillsBox>h1{
+    color: gray;
+    text-align: center;
+}
+#skillsBox>div{
+    margin-top: 10px;
+    display: grid;
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 5vw;
+    grid-row-gap: 6px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+#skillsBox>div>div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* gap: 3vw; */
+}
+#skillsBox>div>div>h1{
+    margin-left: 1vw;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-bottom: 2px solid #00B5FF;
+    width: 100%;
+}
+.skillsBoxImg{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.skillsBoxImg>img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+}
+
+@media only screen and (max-width: 700px) {
+    #skillsBox>div{
+        width: 90vw;
+    }
+    .skillsBoxImg{
+        width: 40px;
+        height: 40px;
+     
+    }
+    #skillsBox{
+   
+        margin-top: 15vw;
+    }
+    .skillsBoxImg>img{
+        width: 25px;
+        height: 25px;
+    }
+    #skillsBox>h1{
+        font-size: 20px;
+    }
+    #skillsBox>div>div>h1{
+        margin-left: 1vw;
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+        border-bottom: 2px solid #00B5FF;
+        width: 100%;
+    }
+}
+
