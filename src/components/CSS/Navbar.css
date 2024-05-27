@@ -14,7 +14,7 @@ nav {
     background-color: #040517;
     overflow: hidden;
     max-height: 0; /* Initially collapsed */
-    transition: max-height 0.5s ease-in-out; /* Smooth transition effect */
+    transition: max-height 0.5s ease-in; /* Smooth transition effect */
 }
 #mobileNav.show {
     display: flex; /* Ensure display is flex when shown */
