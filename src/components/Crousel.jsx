@@ -9,6 +9,7 @@ import spotifyClone from '../assets/spotifyClone.png'
 import coffee from '../assets/coffee.png'
 import gitAlong from '../assets/gitAlong.png'
 
+
 const responsive = {
     superLargeDesktop: {
         // the naming can be any, depends on you.
@@ -29,12 +30,14 @@ const responsive = {
     }
 };
 const Crousel = () => {
+
     return (
         <>
             <div id='WebC'>
                 <h1>Web Creations</h1>
-                <div >
-                    <Carousel swipeable={false}
+                <div style={{zIndex:10}}>
+                    <Carousel style={{zIndex:10}} 
+                        swipeable={true}
                         draggable={true}
                         //   showDots={true}
                         responsive={responsive}
@@ -42,6 +45,7 @@ const Crousel = () => {
                         autoPlay={true}
                         autoPlaySpeed={2200}
                         keyBoardControl={true}
+                        arrows={false}
                     //   customTransition="all .5"
                     >
                         <div className='WebCards'>

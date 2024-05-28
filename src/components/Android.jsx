@@ -32,18 +32,19 @@ const responsive = {
 const Android = () => {
     return (
         <>
+            <div id='android'></div>
             <div id='WebC'>
                 <h1>Android Creations</h1>
                 <div >
                     <Carousel swipeable={false}
                         draggable={true}
-                        //   showDots={true}
                         responsive={responsive}
                         infinite={true}
                         autoPlay={true}
                         autoPlaySpeed={2200}
                         keyBoardControl={true}
-                    //   customTransition="all .5"
+                        arrows={false}
+
                     >
                         <div className='WebCards'>
                             <img src={brijteerth} alt="" />
@@ -75,12 +76,6 @@ const Android = () => {
                             <p>Lorem ipsum dolor sit amet consectetur</p>
                             <a href=""><h4>Project Link</h4></a>
                         </div>
-
-                  
-
-
-
-
                     </Carousel>
                 </div>
             </div>

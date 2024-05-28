@@ -13,6 +13,8 @@ const Header = () => {
                     <p style={{ color: '#00B5FF' }}>Hello, welcome</p>
                     <h1>I m Jayant Sharma</h1>
                     <p id='desc'>I'm a full-stack developer with expertise in both Android and web development. I create seamless user experiences and build robust, scalable applications from the ground up. Let's turn ideas into innovative digital solutions.</p>
+                    <a target='_blank' href="https://drive.google.com/file/d/1JMJVgM_xipcHNeuNUmOrRPqYrCvE0o7-/view?usp=sharing">View Resume</a>
+
                     <div id='socialLogoBox'>
                         <a target='_blank' href="https://www.linkedin.com/in/jayant-sharma-9544a4242/">
                             <div id='socialLogo'>

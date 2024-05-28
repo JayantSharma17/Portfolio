@@ -4,6 +4,7 @@
     margin-right: auto;
     background-color: #121929 ;
     margin-top: 4vw;
+    z-index: 10;
 }
 
 #WebC>h1{

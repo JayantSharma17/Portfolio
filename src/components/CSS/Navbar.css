@@ -1,5 +1,7 @@
 nav {
     background-color: #040517;
+    position: fixed;
+    top: 0;
     width: 100vw;
     height: 90px;
     display: flex;
@@ -7,6 +9,7 @@ nav {
     align-items: center;
     color: #d8d8d8;
     overflow: hidden;
+    z-index: 100;
 }
 #mobileNav{
     width: 100vw;
@@ -14,7 +17,10 @@ nav {
     background-color: #040517;
     overflow: hidden;
     max-height: 0; /* Initially collapsed */
-    transition: max-height 0.5s ease-in; /* Smooth transition effect */
+    transition: max-height 0.2s ease-in-out; /* Smooth transition effect */
+    position: fixed;
+    top: 90px;
+    z-index: 90;
 }
 #mobileNav.show {
     display: flex; /* Ensure display is flex when shown */
@@ -37,6 +43,10 @@ nav {
     text-decoration: none;
     color: #d8d8d8;
     font-size: 22px;
+    border: 2px solid #040517;
+    width: 100%;
+    padding-left: 3vw;
+
 
 }
 
@@ -62,10 +72,17 @@ nav>ul>a>li:hover {
     border-radius: 5px;
     border: 2px solid #00B5FF;
 }
-
 nav>ul>a>li {
     padding: 5px 10px 5px 10px;
     border: 2px solid #040517;
+}
+
+#mobileNav>ul>a:hover{
+    color: white;
+    cursor: pointer;
+    background-color: #262732;
+    border-radius: 5px;
+    border: 2px solid #00B5FF;
 }
 
 nav>ul>a {
@@ -145,4 +162,5 @@ nav>div>img {
         width: 40px;
         height: 40px;
     }
+   
 }
