@@ -1,7 +1,34 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './CSS/Journey.css'
 
 const Journey = () => {
+    useEffect(() => {
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('square-animation');
+                    observer.unobserve(entry.target); 
+                }
+            });
+        });
+        const elements = document.querySelectorAll('.journeyC');
+        elements.forEach(el => observer.observe(el));
+        return () => observer.disconnect();
+    }, []);
+
+    useEffect(() => {
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('line-animation');
+                    observer.unobserve(entry.target); 
+                }
+            });
+        });
+        const elements = document.querySelectorAll('.line');
+        elements.forEach(el => observer.observe(el));
+        return () => observer.disconnect();
+    }, []);
     return (
         <div id='journey'>
             <h1>My Journey and Experiences</h1>
