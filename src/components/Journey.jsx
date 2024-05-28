@@ -74,6 +74,19 @@ const Journey = () => {
             <div className='dot'></div>
             <div className='line'></div>
             <div className='journeyC'>
+                <div>
+                    <div><h1>       
+                    GLAU CodeChef Chapter - CodeBusters
+                    </h1>
+                        <p>Apr 2022</p></div>
+                    <p className='tit'>Deputy Head</p>
+                </div>
+            </div>
+
+            <div className='line'></div>
+            <div className='dot'></div>
+            <div className='line'></div>
+            <div className='journeyC'>
             <div>
                     <div><h1>
                     Internship at Inverosoft

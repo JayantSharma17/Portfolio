@@ -48,33 +48,33 @@ const Android = () => {
                     >
                         <div className='WebCards'>
                             <img src={brijteerth} alt="" />
-                            <h2>Portfolio-Site</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur</p>
-                            <a href=""><h4>Project Link</h4></a>
+                            <h2>BrijTeerth App</h2>
+                            <p> Android App for Mathura Parishad</p>
+                            <a target='_blank' href="https://play.google.com/store/apps/details?id=com.inverosoft.govardhan.parikrama"><h4>Project Link</h4></a>
                         </div>
                         <div className='WebCards'>
                             <img src={vidyasaathi} alt="" />
-                            <h2>Portfolio-Site</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur</p>
-                            <a href=""><h4>Project Link</h4></a>
+                            <h2>VidyaSaathi App</h2>
+                            <p>Student Dropout Analysis App</p>
+                            <a href="#"><h4>Project Link</h4></a>
                         </div>
                         <div className='WebCards'>
                             <img src={mausam} alt="" />
-                            <h2>Portfolio-Site</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur</p>
-                            <a href=""><h4>Project Link</h4></a>
+                            <h2>Mausam App</h2>
+                            <p>Mausam App for weather</p>
+                            <a href="#"><h4>Project Link</h4></a>
                         </div>
                         <div className='WebCards'>
                             <img src={eventmingle} alt="" />
-                            <h2>Portfolio-Site</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur</p>
-                            <a href=""><h4>Project Link</h4></a>
+                            <h2>EventMingle App</h2>
+                            <p>Manage all your Events</p>
+                            <a href="#"><h4>Project Link</h4></a>
                         </div>
                         <div className='WebCards'>
                             <img src={gemini} alt="" />
-                            <h2>Portfolio-Site</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur</p>
-                            <a href=""><h4>Project Link</h4></a>
+                            <h2>Talk with AI</h2>
+                            <p>Natural one-on-one conversations with AI</p>
+                            <a target='_blank' href="https://www.linkedin.com/posts/jayant-sharma-9544a4242_ai-gemini-google-activity-7184485687826558977-72Gw?utm_source=share&utm_medium=member_desktop"><h4>Project Link</h4></a>
                         </div>
                     </Carousel>
                 </div>

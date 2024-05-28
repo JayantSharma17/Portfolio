@@ -55,7 +55,7 @@
 }
 .line-animation{
     opacity: 0;
-    animation: fadeIn 1s forwards ease-in;
+    animation: fadeIn 1.5s forwards ease-in;
     animation-fill-mode: forwards;
 }
 @keyframes fadeIn {

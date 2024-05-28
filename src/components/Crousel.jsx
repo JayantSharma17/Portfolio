@@ -51,43 +51,43 @@ const Crousel = () => {
                         <div className='WebCards'>
                             <img src={portfolioSite} alt="" />
                             <h2>Portfolio-Site</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur</p>
-                            <a href=""><h4>Project Link</h4></a>
+                            <p>A portfolio site built with React.js</p>
+                            <a target="_blank" href="#"><h4>Project Link</h4></a>
                         </div>
 
                         <div className='WebCards'>
                             <img src={skillnexus} alt="" />
                             <h2>SkillNexus</h2>
-                            <p>Lorem ipsum dolor sit amet </p>
-                            <a href=""><h4>Project Link</h4></a>
+                            <p>An artist-focused platform</p>
+                            <a target="_blank" href="https://skill-nexus.netlify.app"><h4>Project Link</h4></a>
                         </div>
 
                         <div className='WebCards'>
                             <img src={furniture} alt="" />
-                            <h2>Portfolio-Site</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur</p>
-                            <a href=""><h4>Project Link</h4></a>
+                            <h2>Furniture-Site Replica</h2>
+                            <p>UI created for Internship</p>
+                            <a target='_blank' href="https://furniture-web-my.netlify.app/"><h4>Project Link</h4></a>
                         </div>
                         <div className='WebCards'>
                             <img src={spotifyClone} alt="" />
                             <h2>Spotify-Clone</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur</p>
-                            <a href=""><h4>Project Link</h4></a>
+                            <p>Spotify Clone using HTML and CSS</p>
+                            <a target='_blank' href="https://jayantsharma17.github.io/Spotify-Clone/"><h4>Project Link</h4></a>
                         </div>
 
                         <div className='WebCards'>
                             <img src={coffee} alt="" />
-                            <h2>Spotify-Clone</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur</p>
-                            <a href=""><h4>Project Link</h4></a>
+                            <h2>Coffee House UI</h2>
+                            <p>Frontend for a Cafe Website</p>
+                            <a target='_blank' href="https://jayantsharma17.github.io/Coffee-House-Website/"><h4>Project Link</h4></a>
                         </div>
 
 
                         <div className='WebCards'>
                             <img src={gitAlong} alt="" />
-                            <h2>Spotify-Clone</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur</p>
-                            <a href=""><h4>Project Link</h4></a>
+                            <h2>Git-Along</h2>
+                            <p>GitHub analytics dashboard developed using the MERN</p>
+                            <a target='_blank' href="https://github.com/JayantSharma17/Git-Along"><h4>Project Link</h4></a>
                         </div>
 
 
