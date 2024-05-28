@@ -66,6 +66,7 @@ header>#logo>img {
     width: 30vw;
 
     border-radius: 100rem;
+    background-color: #00b7ff10;
     /* box-shadow: 20px 20px 60px #090a0a,
         -20px -20px 60px #000b0e; */
 }
