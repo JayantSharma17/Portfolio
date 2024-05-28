@@ -36,7 +36,7 @@ const Android = () => {
             <div id='WebC'>
                 <h1>Android Creations</h1>
                 <div >
-                    <Carousel swipeable={false}
+                    <Carousel swipeable={true}
                         draggable={true}
                         responsive={responsive}
                         infinite={true}

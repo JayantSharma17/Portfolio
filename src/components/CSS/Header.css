@@ -157,6 +157,7 @@ header>#headline>div>#desc {
     
     header>#headline>div>p {
         font-size: 18px;
+        width: 100%;
         text-align: center;
         color: white;
     }

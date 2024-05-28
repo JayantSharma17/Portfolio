@@ -24,6 +24,8 @@ nav {
 }
 #mobileNav.show {
     display: flex; /* Ensure display is flex when shown */
+    align-items: center;
+    justify-content: center;
     max-height: 500px; /* Adjust to a value that fits your menu */
 }
 #mobileNav>ul{
@@ -114,7 +116,6 @@ nav>div>img {
     background-color: transparent;
     width: 70px;
     height: 70px;
-    margin: 5vw;
 
 }
 
