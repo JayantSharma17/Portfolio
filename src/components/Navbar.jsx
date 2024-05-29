@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './CSS/Navbar.css'
-import pic from '../assets/picLogo.jpeg'
+import pic from '../assets/icon.png'
 import menu from '../assets/list.png'
 import cross from '../assets/cross.png'
 
