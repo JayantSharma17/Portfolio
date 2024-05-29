@@ -41,10 +41,11 @@
 }
 .square-animation{
     opacity: 1;
-    scale: 0.2;
+    scale: 0;
     transform: translateY(-100px);
-    animation: fadeInDown 1s forwards ease-in;
+    animation: fadeInDown 0.5s forwards ease-in;
     animation-fill-mode: forwards;
+    animation-delay: 1s;
 }
 @keyframes fadeInDown {
     to {
@@ -55,12 +56,15 @@
 }
 .line-animation{
     opacity: 0;
+    height: 0px;
     animation: fadeIn 1.5s forwards ease-in;
     animation-fill-mode: forwards;
+    animation-delay: 2s;
 }
 @keyframes fadeIn {
     to {
         opacity: 1;
+        height: 10px;
     }
 }
 
