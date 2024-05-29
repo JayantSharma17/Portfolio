@@ -38,7 +38,11 @@ const Contact = () => {
       if (response.ok) {
         const data = await response.json();
         // setResponseMessage(data.message || 'Message sent successfully');
-        alert('Your message is sent successfully')
+        alert('Your message is sent successfully.')
+        setName(''); 
+        setEmail(''); 
+        setPh(''); 
+        setMsg('');
 
       } else {
         // const errorData = await response.json();
