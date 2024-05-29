@@ -72,8 +72,12 @@ const Android = () => {
                         </div>
                         <div className='WebCards'>
                             <img src={gemini} alt="" />
+
                             <h2>Talk with AI</h2>
+            <div id='4'></div>
+
                             <p>Natural one-on-one conversations with AI</p>
+
                             <a target='_blank' href="https://www.linkedin.com/posts/jayant-sharma-9544a4242_ai-gemini-google-activity-7184485687826558977-72Gw?utm_source=share&utm_medium=member_desktop"><h4>Project Link</h4></a>
                         </div>
                     </Carousel>

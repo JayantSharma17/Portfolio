@@ -77,6 +77,8 @@ const Skills = () => {
                     <div>
                         <div className='skillsBoxImg'>
                             <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png" alt="" />
+            <div id='3'></div>
+
                         </div>
                         <h1>CSS</h1>
                     </div>
@@ -92,6 +94,7 @@ const Skills = () => {
                         </div>
                         <h1>GitHub</h1>
                     </div>
+
                     
 
                 </div>

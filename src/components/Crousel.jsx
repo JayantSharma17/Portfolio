@@ -85,9 +85,12 @@ const Crousel = () => {
 
                         <div className='WebCards'>
                             <img src={gitAlong} alt="" />
+            <div id='2'></div>
+
                             <h2>Git-Along</h2>
                             <p>GitHub analytics dashboard developed using the MERN</p>
                             <a target='_blank' href="https://github.com/JayantSharma17/Git-Along"><h4>Project Link</h4></a>
+                            
                         </div>
 
 

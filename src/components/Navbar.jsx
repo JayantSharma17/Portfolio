@@ -27,10 +27,10 @@ const Navbar = () => {
                 </div>
                 <ul>
                     <a href="#"><li>Home</li></a>
-                    <a href="#WebC"><li>Web-Projects</li></a>
-                    <a href="#skillsBox"><li>Skills</li></a>
-                    <a href="#android"><li>Android-Projects</li></a>
-                    <a href="#journey"><li>Journey</li></a>
+                    <a href="#1"><li>Web-Projects</li></a>
+                    <a href="#2"><li>Skills</li></a>
+                    <a href="#3"><li>Android-Projects</li></a>
+                    <a href="#4"><li>Journey</li></a>
                     <a href="#contact"><li>ContactUs</li></a>
 
                 </ul>
@@ -44,16 +44,16 @@ const Navbar = () => {
 
                     <a onClick={openMenu} href="#"><li>Home</li></a>
                     <div style={{height:'1px',width:'100vw',backgroundColor:'gray'}}></div>
-                    <a onClick={openMenu} href="#WebC"><li>Web-Projects</li></a>
+                    <a onClick={openMenu} href="#1"><li>Web-Projects</li></a>
                     <div style={{height:'1px',width:'100vw',backgroundColor:'gray'}}></div>
 
-                    <a onClick={openMenu} href="#skillsBox"><li>Skills</li></a>
+                    <a onClick={openMenu} href="#2"><li>Skills</li></a>
                     <div style={{height:'1px',width:'100vw',backgroundColor:'gray'}}></div>
 
-                    <a onClick={openMenu} href="#android"><li>Android-Projects</li></a>
+                    <a onClick={openMenu} href="#3"><li>Android-Projects</li></a>
                     <div style={{height:'1px',width:'100vw',backgroundColor:'gray'}}></div>
 
-                    <a onClick={openMenu} href="#journey"><li>Journey</li></a>
+                    <a onClick={openMenu} href="#4"><li>Journey</li></a>
                     <div style={{height:'1px',width:'100vw',backgroundColor:'gray'}}></div>
 
                     <a onClick={openMenu} href="#contact"><li>ContactUs</li></a>

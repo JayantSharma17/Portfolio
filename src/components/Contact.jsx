@@ -71,7 +71,7 @@ const Contact = () => {
           <input type="text" placeholder='Phone Number' value={ph} onChange={(e) => { setPh(e.target.value) }} />
           <input type='text' placeholder='Message' value={msg} onChange={(e) => { setMsg(e.target.value) }} />
           {showLoader?<Comment
-          visible={true}
+          visible={showLoader}
           height="80"
           width="80"
           ariaLabel="comment-loading"
