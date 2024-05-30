@@ -80,6 +80,7 @@ const Contact = () => {
           color="#fff"
           backgroundColor="#00B5FF"
         />:<button onClick={handleSendMail}>Send message</button>}
+        {showLoader && <p style={{color:'white'}}>Sending message, please wait...</p>}
 
         </div>
 
