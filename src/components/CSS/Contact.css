@@ -36,7 +36,27 @@
     font-weight: 600;
 
 
-}#contact>div>input:focus{
+}
+#contact>div>textarea{
+    width: 50vw;
+    margin-top: 20px;
+    font-size: 30px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: transparent;
+    border: 2px solid #00B5FF;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 600;
+    resize: none;
+    border-radius: 10px;
+
+
+}
+
+#contact>div>input:focus{
     border-bottom: 2px solid #ffffff;
 }
 #contact>div>button{
@@ -74,11 +94,16 @@
 #footer>p{
     font-size: 20px;
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 900px) {
     #contact>div{
         width: 90vw;
     }
     #contact>div>input{
+        margin-top: 10px;
+        font-size: 18px;
+        padding: 10px;
+    }
+    #contact>div>textarea{
         margin-top: 10px;
         font-size: 18px;
         padding: 10px;

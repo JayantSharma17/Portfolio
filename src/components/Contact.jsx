@@ -69,7 +69,8 @@ const Contact = () => {
           <input type="text" placeholder='Name' value={name} onChange={(e) => { setName(e.target.value) }} />
           <input type="email" placeholder='Email' value={email} onChange={(e) => { setEmail(e.target.value) }} />
           <input type="text" placeholder='Phone Number' value={ph} onChange={(e) => { setPh(e.target.value) }} />
-          <input type='text' placeholder='Message' value={msg} onChange={(e) => { setMsg(e.target.value) }} />
+          {/* <input type='text' placeholder='Message' value={msg} onChange={(e) => { setMsg(e.target.value) }} /> */}
+          <textarea id="dynamic-textarea" value={msg} onChange={(e) => { setMsg(e.target.value) }}  placeholder="Type your message here..." style={{width:'100%'}} rows={3} maxLength={1500}/>
           {showLoader?<Comment
           visible={showLoader}
           height="80"
