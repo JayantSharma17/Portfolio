@@ -41,7 +41,7 @@ const Android = () => {
                         responsive={responsive}
                         infinite={true}
                         autoPlay={true}
-                        autoPlaySpeed={2200}
+                        autoPlaySpeed={2000}
                         keyBoardControl={true}
                         arrows={false}
 
