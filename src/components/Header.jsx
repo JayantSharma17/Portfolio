@@ -15,7 +15,11 @@ const Header = () => {
             minWidth: 200.00,
             scale: 1.00,
             scaleMobile: 1.00,
-            color: 0x121929 // Updated color
+            color: 0x121929,
+            shininess: 75.00,
+            waveHeight: 9.00,
+            waveSpeed: 0.75,
+            zoom: 1.75
         });
 
         return () => {
