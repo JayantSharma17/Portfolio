@@ -1,10 +1,29 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import './CSS/Header.css'
 import pic from '../assets/pic3.png'
 import code from '../assets/coding.png'
 const Header = () => {
+    const mybgRef = useRef(null);
+
+    useEffect(() => {
+        const vantaEffect = window.VANTA.WAVES({
+            el: mybgRef.current,
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: 0x121929 // Updated color
+        });
+
+        return () => {
+            if (vantaEffect) vantaEffect.destroy();
+        };
+    }, []);
     return (
-        <header>
+        <header id='mybg' ref={mybgRef}>
             <div id='logo'>
                 <img src={pic} alt="logo" />
             </div>
