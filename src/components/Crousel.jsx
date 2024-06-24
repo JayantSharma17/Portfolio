@@ -8,6 +8,7 @@ import furniture from '../assets/furniture.png'
 import spotifyClone from '../assets/spotifyClone.png'
 import coffee from '../assets/coffee.png'
 import gitAlong from '../assets/gitAlong.png'
+import moviesite from '../assets/moviesite.png'
 
 
 const responsive = {
@@ -73,6 +74,12 @@ const Crousel = () => {
                             <h2>Spotify-Clone</h2>
                             <p>Spotify Clone using HTML and CSS</p>
                             <a target='_blank' href="https://jayantsharma17.github.io/Spotify-Clone/"><h4>Project Link</h4></a>
+                        </div>
+                        <div className='WebCards'>
+                            <img src={moviesite} alt="" />
+                            <h2>Manoranjan</h2>
+                            <p>Movies website using MERN</p>
+                            <a target='_blank' href="https://manoranjann.netlify.app/"><h4>Project Link</h4></a>
                         </div>
 
                         <div className='WebCards'>
