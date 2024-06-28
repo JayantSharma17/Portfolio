@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import './CSS/Header.css'
-import pic from '../assets/pic3.png'
+import pic from '../assets/pic.png'
 import code from '../assets/coding.png'
 const Header = () => {
     const mybgRef = useRef(null);
